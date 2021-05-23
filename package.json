@@ -1,10 +1,10 @@
 {
-  "name": "graphql-medium",
+  "name": "graphql-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,10 +13,14 @@
     "nodemon": "^2.0.7"
   },
   "dependencies": {
+    "express": "^4.9.8",
     "apollo-server": "^2.14.2",
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.17"
+  },
+  "engines": {
+    "node": "^14.17.0"
   }
 }
